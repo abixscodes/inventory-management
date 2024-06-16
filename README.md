@@ -56,3 +56,4 @@ Pagination and Search:
 
 Added pagination to handle large datasets (if applicable).
 Implemented search functionality for quick access to orders and items (if applicable).
+![Screenshot 2024-06-17 042415](https://github.com/abixscodes/inventory-management/assets/89627182/45b77100-789c-44f1-9095-dab08db220c2)
