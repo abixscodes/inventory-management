@@ -20,17 +20,39 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Features
+Order List Page:
 
-To learn more about Next.js, take a look at the following resources:
+Displays a list of orders with ID, customer name, status, and item count.
+Filters orders by status (Pending, Completed).
+Sorts orders by customer name and item count.
+Order Details Page:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Shows detailed information about a specific order.
+Displays items in the order, their quantities, and stock availability.
+Button to mark the order as completed.
+Inventory Management:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Displays a list of items with their stock levels.
+Filters items by stock availability.
+Form to add new items to the inventory.
+Allows editing and deleting items.
+Design Choices and Implementation
+React and Next.js:
+Utilized React components and Next.js for server-side rendering and routing.
+State Management:
+Managed local state using React's useState hook for simplicity.
+Data Handling:
+Demonstrated array and object manipulations through filtering, sorting, and updating data.
+Styling:
+Used Tailwind CSS for a responsive and modern user interface.
+User Experience:
+Implemented a user-friendly interface with clear navigation and accessibility features.
+Additional Considerations
+Local Storage:
 
-## Deploy on Vercel
+Used local storage to persist the state of orders and inventory (if applicable).
+Pagination and Search:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Added pagination to handle large datasets (if applicable).
+Implemented search functionality for quick access to orders and items (if applicable).
